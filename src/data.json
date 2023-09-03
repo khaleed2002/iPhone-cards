@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 14 Pro Max",
+        "details": "iPhone 14 Pro Max mobile was launched on 7th September 2022. The phone comes with a 120 Hz refresh rate 6.70-inch touchscreen display offering a resolution of 2796x1290 pixels at a pixel density of 460 pixels per inch (ppi). The display sports Other for protection. iPhone 14 Pro Max is powered by a hexa-core Apple A16 Bionic processor. The iPhone 14 Pro Max supports wireless charging, as well as proprietary fast charging.As far as the cameras are concerned, the iPhone 14 Pro Max on the rear packs a triple camera setup featuring a 48-megapixel (f/1.78) primary camera; a 12-megapixel (f/2.2) camera, and a 12-megapixel (f/1.78) camera. It has a single front camera setup for selfies, featuring a 12-megapixel sensor with an f/1.9 aperture. iPhone 14 Pro Max is based on iOS 16 and packs 128GB, 256GB, 512GB, 1TB of inbuilt storage. The iPhone 14 Pro Max measures 160.70 x 77.60 x 7.85mm (height x width x thickness) and weighs 240.00 grams. It was launched in Space Black, Silver, Gold, and Deep Purple colours. It features an IP68 rating for dust and water protection. Connectivity options on the iPhone 14 Pro Max include Wi-Fi and Lightning. Sensors on the phone include accelerometer, ambient light sensor, proximity sensor, and compass/ magnetometer.",
+        "img": "https://i.ibb.co/NtxDMgb/iphone-14-promax.webp",
+        "price": 1099
+    },
+    {
+        "id": 2,
+        "name": "iPhone 14 Pro",
+        "details": "Apple has really nailed its smartphone formula. The iPhone 14 Pro features a lot of camera upgrades and the Dynamic Island, which replaces the infamous notch five years after the its debut on the iPhone X. I can confidently say that the iPhone 14 Pro is the best phone I’ve ever used, though I'm disappointed by the battery life. At $100 more, the iPhone 14 Pro Max does checks all of the boxes, including stellar battery life. From its pocketable form factor to its sheer horsepower and camera capabilities, the iPhone 14 Pro crushes anything else that tries to stand against it.Sure, it isn’t the huge upgrade you might have expected, but that’s because the iPhone 13 Pro did a lot right.",
+        "img": "https://i.ibb.co/SQjWjwb/iphone-14-pro.webp",
+        "price": 999
+    },
+    {
+        "id": 3,
+        "name": "iPhone 13 Pro Max",
+        "details": "The iPhone 13 Pro Max is Apple's biggest iPhone, but it doens't have any advantages over the iPhone 13 Pro in terms of features, unlike in previous generations. It's heavy and unwieldy, but the big display is great for games and the increased battery capacity allows for nearly two full days of regular use. The display gets a 120Hz refresh rate, but there's still an unsightly notch that interferes with movies. Performance is great thanks to the A15 Bionic SoC. You can choose betweeen 128GB, 256GB, 512GB and 1TB storage options. The main new features are camera-related: Cinematic Mode and Photographic Styles. The camera hardware has also been improved, compared to the previous generation. You can now take macros and the optical zoom goes up to 3X. Although incredibly expensive, the iPhone 13 Pro Max represents the best of the best in the iPhone lineup.",
+        "img": "https://i.ibb.co/qCV81xM/iphone-13-promax.webp",
+        "price": 1099
+    },
+    {
+        "id": 4,
+        "name": "iPhone 12 Pro Max",
+        "details": "The phone which is powered by the new Apple A14 Bionic processor, comes with a 6.7 inche Super Retina XDR OLED capacitive touchscreen and 2778 x 1284 p resolution. It features an HDR display and True Tone, and Wide color (P3) gamut. The display screen is protected by a unique ceramic shield and features 1200 nits max brightness, Dolby Vision, HDR10+ and 120Hz refresh rate. It comes with a 6GB RAM and three storage variants 128GB, 256GB and 512GB.The rear camera consists of a 12MP(wide) + 12MP(telephoto) 5x optical zoom + 12MP(ultrawide) sensors and a LiDAR scanner for night mode. The front camera has a 12 MP(wide) + SL 3D(depth / biometrics) camera sensor.Other sensors include Lidar, Face ID, accelerometer, gyro, proximity, compass, barometer + Siri natural language commands, and dictation. The smartphone is fueled by a 3687mAh Li - Ion battery and supports 20W fast charging, USB Power Delivery 2.0, 7W Qi wireless charging and 15W MagSafe Wireless Charging.The phone runs on iOS 14 operating system which can be updated to iOS 14.7. iPhone 12 Pro Max comes in four different colors viz: Graphite, Silver, Gold and Pacific Blue.It features 2.0, proprietary reversible connector.",
+        "img": "https://i.ibb.co/xDJVBBt/iphone-12-promax.jpg",
+        "price": 634.95
+    },
+    {
+        "id": 5,
+        "name": "iPhone 11 Pro Max",
+        "details": "The iPhone 11 Pro Max debuted on September 10, 2019, at Apple's \"by innovation only\" event. It premiered alongside the budget-friendly iPhone 11 and the smaller 5.8-inch iPhone 11 Pro. The iPhone 11 Pro was available for preorder on September 13, 2019, and shipped the following week on September 20. The iPhone 11 Pro Max comes in four colors: gold, Space Gray, silver, and Midnight Green. Gold and silver have stainless steel rims with a silver color, while the Space Gray and Midnight Green colors have darkened stainless steel rims. All options have a black front-facing bezel. This model has the same storage capabilities as the iPhone XS.It is available with 64GB, 256GB, and 128GB options.           Display The 6.5-inch, 2688 x 1242 OLED display on Apple's largest phones have been dubbed the \"Super Retina XDR display.\" It has a pixel density of 458 pixels per inch, and a 2,000,000 to one contrast ratio, compared to 1,000,000 to one on the iPhone XS and iPhone X. It has a brightness level of 800 nits typically and up to 1200 nits with HDR, whereas the iPhone XS has 625 nits.",
+        "img": "https://i.ibb.co/JzycdYL/iphone-11-promax.jpg",
+        "price": 397.78
+    }
+]
