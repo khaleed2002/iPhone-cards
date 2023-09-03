@@ -19,7 +19,7 @@ const Card = ({ img, name, details, notInterested, id }) => {
           <h3 className="inner-title">{name}</h3>
           {details.length > 200 ? (
             !isShowmore ? (
-              <div>
+              <div style={{ display: 'inline-block', verticalAlign: 'middle' }}>
                 <p>{details.slice(0, 200).concat('...')}</p>
                 <button className="blue-button" onClick={handleShowmore}>
                   Read more
