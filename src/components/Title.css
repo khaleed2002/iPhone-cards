@@ -1,0 +1,34 @@
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 4px;
+    /* Adjust the line thickness as needed */
+    background-color: #00b300;
+    /* Green color */
+    position: absolute;
+    bottom: -8px;
+    /* Adjust the starting position as needed */
+    transition: 0.3s ease-in-out;
+    /* Add a smooth transition effect */
+}
+
+.title:hover::after {
+    width: 100%;
+    /* Expand the line to 100% on hover */
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
