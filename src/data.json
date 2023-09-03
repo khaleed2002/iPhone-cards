@@ -4,6 +4,7 @@
     "name": "iPhone 14 Pro Max",
     "details": "iPhone 14 Pro Max mobile was launched on 7th September 2022. The phone comes with a 120 Hz refresh rate 6.70-inch touchscreen display offering a resolution of 2796x1290 pixels at a pixel density of 460 pixels per inch (ppi). The display sports Other for protection. iPhone 14 Pro Max is powered by a hexa-core Apple A16 Bionic processor. The iPhone 14 Pro Max supports wireless charging, as well as proprietary fast charging.",
     "img": "https://i.ibb.co/NtxDMgb/iphone-14-promax.webp",
+    "amazon_link": "https://www.amazon.eg/%D9%85%D9%88%D8%A8%D8%A7%D9%8A%D9%84-%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%8C-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA%D8%8C-%D8%A7%D8%B1%D8%AC%D9%88%D8%A7%D9%86%D9%8A/dp/B0BDJBNN7N/ref=sr_1_5?keywords=iphone+14+pro+max&qid=1693748875&sprefix=iphone+14%2Caps%2C487&sr=8-5",
     "price": 1099
   },
   {
@@ -11,6 +12,7 @@
     "name": "iPhone 14 Pro",
     "details": "Apple has really nailed its smartphone formula. The iPhone 14 Pro features a lot of camera upgrades and the Dynamic Island, which replaces the infamous notch five years after the its debut on the iPhone X. I can confidently say that the iPhone 14 Pro is the best phone I’ve ever used, though I'm disappointed by the battery life. At $100 more, the iPhone 14 Pro Max does checks all of the boxes, including stellar battery life.",
     "img": "https://i.ibb.co/SQjWjwb/iphone-14-pro.webp",
+    "amazon_link": "https://www.amazon.eg/%D9%85%D9%88%D8%A8%D8%A7%D9%8A%D9%84-%D8%A7%D8%A8%D9%84-%D8%A7%D9%8A%D9%81%D9%88%D9%86-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA%D8%8C-%D9%81%D8%B6%D8%A7%D8%A6%D9%8A/dp/B0BDJ27XXT/ref=sr_1_5?crid=2M2BH5KIWOKTD&keywords=iphone+14+pro&qid=1693749044&sprefix=iphone+14+pro%2Caps%2C135&sr=8-5",
     "price": 999
   },
   {
@@ -18,6 +20,7 @@
     "name": "iPhone 13 Pro Max",
     "details": "The iPhone 13 Pro Max is Apple's biggest iPhone, but it doens't have any advantages over the iPhone 13 Pro in terms of features, unlike in previous generations. It's heavy and unwieldy, but the big display is great for games and the increased battery capacity allows for nearly two full days of regular use. The display gets a 120Hz refresh rate, but there's still an unsightly notch that interferes with movies.",
     "img": "https://i.ibb.co/qCV81xM/iphone-13-promax.webp",
+    "amazon_link": "https://www.tradelinestores.com/shop/iPhone/iPhone-13-Pro-Max/iPhone-13-Pro-Max",
     "price": 1099
   },
   {
@@ -25,6 +28,7 @@
     "name": "iPhone 12 Pro Max",
     "details": "The phone which is powered by the new Apple A14 Bionic processor, comes with a 6.7 inche Super Retina XDR OLED capacitive touchscreen and 2778 x 1284 p resolution. It features an HDR display and True Tone, and Wide color (P3) gamut. The display screen is protected by a unique ceramic shield and features 1200 nits max brightness, Dolby Vision, HDR10+ and 120Hz refresh rate.",
     "img": "https://i.ibb.co/xDJVBBt/iphone-12-promax.jpg",
+    "amazon_link": "https://www.amazon.eg/-/en/Apple-iPhone-256GB-Pacific-Blue/dp/B08LQ7DV6M",
     "price": 634.95
   },
   {
@@ -32,6 +36,7 @@
     "name": "iPhone 11 Pro Max",
     "details": "The iPhone 11 Pro Max debuted on September 10, 2019, at Apple's \"by innovation only\" event. It premiered alongside the budget-friendly iPhone 11 and the smaller 5.8-inch iPhone 11 Pro. The iPhone 11 Pro was available for preorder on September 13, 2019, and shipped the following week on September 20. The iPhone 11 Pro Max comes in four colors: gold, Space Gray, silver, and Midnight Green.",
     "img": "https://i.ibb.co/JzycdYL/iphone-11-promax.jpg",
+    "amazon_link": "https://btech.com/en/apple-iphone-11-pro-max-256gb-gray.html",
     "price": 397.78
   }
 ]
