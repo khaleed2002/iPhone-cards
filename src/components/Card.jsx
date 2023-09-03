@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Card.css'
-const Card = ({ img, name, details, notInterested, id }) => {
+const Card = ({ img, name, details, notInterested, id, amazon_link }) => {
   const [isShowmore, setIsShowmore] = useState(false)
   const handleShowmore = () => {
     setIsShowmore(true)
@@ -14,12 +14,14 @@ const Card = ({ img, name, details, notInterested, id }) => {
   return (
     <div className={isShowmore ? 'no-card-wrap' : 'card-wrap'}>
       <div className="card">
-        <img src={img} className="card-img" alt="Card Image" />
+        <a href={amazon_link} target="_blank" rel="noopener noreferrer">
+          <img src={img} className="card-img" alt="Card Image" />
+        </a>
         <div className="card-content">
           <h3 className="inner-title">{name}</h3>
           {details.length > 200 ? (
             !isShowmore ? (
-              <div style={{ display: 'inline-block', verticalAlign: 'middle' }}>
+              <div>
                 <p>{details.slice(0, 200).concat('...')}</p>
                 <button className="blue-button" onClick={handleShowmore}>
                   Read more
