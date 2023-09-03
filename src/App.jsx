@@ -2,26 +2,28 @@ import Title from './components/Title'
 import Cards from './components/Cards'
 import Loading from './components/Loading'
 import { useState, useEffect } from 'react'
-const url = 'https://mocki.io/v1/119bfa73-ff99-41bd-8ee9-34292d2bcc46'
+const url =
+  'https://raw.githubusercontent.com/khaleed2002/iPhone-cards/main/src/data.json'
 
 const App = () => {
   const [cards, setCards] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
+  const fetchData = async (url) => {
+    fetch(url)
+      .then((resp) => resp.json())
+      .then((data) => setCards(data))
+      .then(() => {
+        // for beautiful scence
+        setTimeout(() => setIsLoading(false), 2000)
+      })
+  }
   useEffect(() => {
-    const fetchData = async (url) => {
-      fetch(url)
-        .then((resp) => resp.json())
-        .then((data) => setCards(data))
-        .then(() => {
-          // for beautiful scence
-          setTimeout(() => setIsLoading(false), 2000)
-        })
-    }
     fetchData(url)
   }, [])
-
+  const handleRefresh = () => {
+    fetchData(url)
+  }
   if (isLoading) {
-    console.log(cards)
     return (
       <main>
         <Title />
@@ -29,11 +31,22 @@ const App = () => {
       </main>
     )
   }
+  const handleNotInterested = (id) => {
+    setCards((cards) => {
+      return cards.filter((card) => card.id !== id)
+    })
+  }
 
   return (
     <main>
       <Title />
-      <Cards cards={cards} />
+      {cards.length == 0 ? (
+        <button className="btn" onClick={handleRefresh}>
+          Refresh
+        </button>
+      ) : (
+        <Cards cards={cards} notInterested={handleNotInterested} />
+      )}
     </main>
   )
 }

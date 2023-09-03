@@ -255,7 +255,7 @@ body {
 
 .loading {
     border: 2px solid transparent;
-    border-color: transparent #fff transparent #FFF;
+    border-color: transparent #78c6a5 transparent #78c6a5;
     -moz-animation: rotate-loading 1.5s linear 0s infinite normal;
     -moz-transform-origin: 50% 50%;
     -o-animation: rotate-loading 1.5s linear 0s infinite normal;

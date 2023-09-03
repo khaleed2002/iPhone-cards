@@ -1,9 +1,14 @@
 import Card from './Card'
-
-const Cards = ({ cards }) => {
-  
-  return cards.map((card) => {
-    return <Card {...card} key={card.id} />
-  })
+import './Cards.css'
+const Cards = ({ cards, notInterested }) => {
+  return (
+    <ul className="cards-container">
+      {cards.map((card) => (
+        <li key={card.id} className="card-wrap">
+          <Card {...card} notInterested={() => notInterested(card.id)} />
+        </li>
+      ))}
+    </ul>
+  )
 }
 export default Cards
