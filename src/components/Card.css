@@ -27,10 +27,9 @@
 
 p {
     text-align: left;
-    display: inline-flex;
     margin: 10px 0;
     font-size: 16px;
-    color: #777;
+    color: #64748b;
 }
 
 .blue-button {
@@ -40,7 +39,7 @@ p {
     cursor: pointer;
     transition: text-decoration 0.2s;
     margin-top: 0.2rem;
-    display: block;
+    display: inline-block;
 
 }
 
@@ -58,9 +57,7 @@ p {
     margin-bottom: 1rem;
 }
 
-p {
-    color: #64748b;
-}
+p {}
 
 .btn--not-interested {
 

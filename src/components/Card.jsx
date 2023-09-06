@@ -22,17 +22,21 @@ const Card = ({ img, name, details, notInterested, id, amazon_link }) => {
           {details.length > 200 ? (
             !isShowmore ? (
               <div>
-                <p>{details.slice(0, 200).concat('...')}</p>
-                <button className="blue-button" onClick={handleShowmore}>
-                  Read more
-                </button>
+                <p>
+                  {details.slice(0, 200).concat('...')}
+                  <button className="blue-button" onClick={handleShowmore}>
+                    Read more
+                  </button>
+                </p>
               </div>
             ) : (
               <div>
-                <p>{details}</p>
-                <button className="blue-button" onClick={handleShowless}>
-                  Show less
-                </button>
+                <p>
+                  {details}
+                  <button className="blue-button" onClick={handleShowless}>
+                    Show less
+                  </button>
+                </p>
               </div>
             )
           ) : (
